@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>imessage-all</artifactId>
+        <groupId>com.dianxin.imessage</groupId>
+        <version>${imessage-all.version}</version>
+        <relativePath>..</relativePath>
+    </parent>
+    <groupId>com.dianxin.imessage</groupId>
+    <artifactId>imessage-biz</artifactId>
+    <version>${imessage-biz.version}</version>
+    <name>imessage-biz</name>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>com.dianxin.imessage</groupId>
+            <artifactId>imessage-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dianxin.imessage</groupId>
+            <artifactId>imessage-common</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>imessage-biz-${imessage-biz.version}</finalName>
+    </build>
+</project>

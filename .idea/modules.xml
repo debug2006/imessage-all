@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/imessage-all.iml" filepath="$PROJECT_DIR$/imessage-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imessage-all.iml" filepath="$PROJECT_DIR$/imessage-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imessage-biz/imessage-biz.iml" filepath="$PROJECT_DIR$/imessage-biz/imessage-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imessage-common/imessage-common.iml" filepath="$PROJECT_DIR$/imessage-common/imessage-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imessage-dao/imessage-dao.iml" filepath="$PROJECT_DIR$/imessage-dao/imessage-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imessage-web/imessage-web.iml" filepath="$PROJECT_DIR$/imessage-web/imessage-web.iml" />
+    </modules>
+  </component>
+</project>

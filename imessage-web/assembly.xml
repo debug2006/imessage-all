@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly
+        xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.1">
+    <id>bin</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>true</useProjectArtifact>
+            <outputDirectory>/WEB-INF/lib</outputDirectory>
+        </dependencySet>
+    </dependencySets>
+
+    <fileSets>
+        <fileSet>
+            <directory>WebRoot</directory>
+            <outputDirectory>/</outputDirectory>
+            <excludes>
+                <exclude></exclude>
+            </excludes>
+        </fileSet>
+        <!--fileSet>
+            <directory>target/classes</directory>
+            <outputDirectory>/WEB-INF/classes</outputDirectory>
+            <excludes>
+                <exclude>*.properties</exclude>
+                <exclude>*.class</exclude>
+            </excludes>
+        </fileSet-->
+        <fileSet>
+            <directory>/conf</directory>
+            <outputDirectory>/conf</outputDirectory>
+            <includes>
+                <include>*.properties</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+
+</assembly>

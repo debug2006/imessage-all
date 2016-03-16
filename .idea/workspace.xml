@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="6cb31bdf-8e2b-4957-b09a-330c66640d27" name="Default" comment="兴趣最搭：测试">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imessage-all.iml" afterPath="$PROJECT_DIR$/imessage-all.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imessage-biz/imessage-biz.iml" afterPath="$PROJECT_DIR$/imessage-biz/imessage-biz.iml" />
+    </list>
+    <list id="8294fae6-c3d3-483f-8a45-72a3e5635e5b" name="Rejected commit: Default" comment="mongodb driver">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imessage-web/WebRoot/WEB-INF/conf/app.properties" afterPath="$PROJECT_DIR$/imessage-web/WebRoot/WEB-INF/conf/app.properties" />
+    </list>
+    <ignored path="imessage-all.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/imessage-biz/target/" />
+    <ignored path="$PROJECT_DIR$/imessage-web/target/" />
+    <ignored path="$PROJECT_DIR$/imessage-common/target/" />
+    <ignored path="$PROJECT_DIR$/imessage-dao/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/imessage-web/WebRoot/WEB-INF/conf/app.properties" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="F:\workspaces\imessage-all" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="imessage-all" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/data/UserInfo.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/RecommendInfo.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/RecommendFromDb.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/impl/PositionBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/IPositionBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/impl/IRecommendBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/FirendController.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/RecommendFromLbs.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/MongoBase.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/MongoDBManager.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/LbsLogic.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RangeRule.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/InterestRule.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxActivityController.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/IActivityStatBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/data/MongoPosition.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/UserRule.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/mapper/ActivityStatMapper.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/IRecommendBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxPositionController.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/impl/AppInfoBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/mapper/VsersionUpdateMapper.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/IVsersionUpdateBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/VsersionUpdateBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/resources/META-INF/ibatis/vsersionUpdate-mapping.xml" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/AppInfoServie.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxFriendsDetailsController.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxFirendController.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/IUserAddrBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/UserAddrBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxAddrController.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/resources/META-INF/ibatis/activityStat-mapping.xml" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/ActivityStatBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxLbsController.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/config/SystemInfoController.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/impl/UserBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/IUserBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/book/FriendsId.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/book/MembersId.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/book/MulitiMemberInfo.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/book/Member.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/chat/IMultiChatBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/xmpp/XmppManager.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/constant/ErrCodeEnum.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/chat/MultiUserChatController.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/chat/impl/MultiChatBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RuleHandle.java" />
+        <option value="$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/DxUserModel.java" />
+        <option value="$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/impl/RecommendBiz.java" />
+        <option value="$PROJECT_DIR$/imessage-common/src/test/java/com/dianxin/imessage/common/util/DESUtilTest.java" />
+        <option value="$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxInterestController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="nexus" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="imessage-war" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="imessage-war" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="imessage-biz" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1552" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imessage-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imessage-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imessage-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Images" />
+    <property name="options.splitter.main.proportions" value="0.296875" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38319907" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="115" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="121" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="124" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="72" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="127" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="890" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="109" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="116" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="115" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="109" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="112" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="888" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dianxin.imessage.dao.dataobject.book" />
+      <recent name="com.dianxin.imessage.dao.util.page" />
+      <recent name="com.dianxin.imessage.common.mongo.data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspaces\imessage-all\imessage-biz\src\main\java\com\dianxin\imessage\biz\mongo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat7">
+    <configuration default="false" name="MongoDBManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dianxin.imessage.common.lbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.dianxin.imessage.common.lbs.MongoDBManager" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="imessage-common" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DESUtilTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dianxin.imessage.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="imessage-common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dianxin.imessage.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.dianxin.imessage.common.util.DESUtilTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RangeRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dianxin.imessage.biz.mongo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.dianxin.imessage.biz.mongo.RangeRule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="imessage-biz" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="imessage-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_imessage-all_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54119" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="imessage-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat7" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MongoDBManager" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DESUtilTest.test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RangeRule" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DESUtilTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RangeRule" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MongoDBManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="UPDATE_DEPTH" value="infinity" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\workspaces\imessage-all" />
+          <option name="myCopyRoot" value="F:\workspaces\imessage-all" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\workspaces\imessage-all\imessage-biz" />
+          <option name="myCopyRoot" value="F:\workspaces\imessage-all\imessage-biz" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\workspaces\imessage-all\imessage-common" />
+          <option name="myCopyRoot" value="F:\workspaces\imessage-all\imessage-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\workspaces\imessage-all\imessage-dao" />
+          <option name="myCopyRoot" value="F:\workspaces\imessage-all\imessage-dao" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\workspaces\imessage-all\imessage-web" />
+          <option name="myCopyRoot" value="F:\workspaces\imessage-all\imessage-web" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\workspaces\imessage-all" />
+          <option name="myCopyRoot" value="F:\workspaces\imessage-all" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cb31bdf-8e2b-4957-b09a-330c66640d27" name="Default" comment="" />
+      <created>1450676718829</created>
+      <option name="number" value="Default" />
+      <updated>1450676718829</updated>
+      <workItem from="1450676720051" duration="2075000" />
+      <workItem from="1451006872982" duration="658000" />
+      <workItem from="1452004165162" duration="1453000" />
+      <workItem from="1452127623382" duration="1197000" />
+      <workItem from="1452750193970" duration="1710000" />
+      <workItem from="1453103258834" duration="1110000" />
+      <workItem from="1453270804233" duration="650000" />
+      <workItem from="1453422993319" duration="13698000" />
+      <workItem from="1453877124065" duration="2733000" />
+      <workItem from="1453945948484" duration="3970000" />
+      <workItem from="1453953237565" duration="595000" />
+      <workItem from="1453953846325" duration="6518000" />
+      <workItem from="1453984489367" duration="2685000" />
+      <workItem from="1453987219009" duration="112000" />
+      <workItem from="1454025603624" duration="9453000" />
+      <workItem from="1454201693108" duration="2428000" />
+      <workItem from="1454204363394" duration="1622000" />
+      <workItem from="1454206006728" duration="493000" />
+      <workItem from="1454206516840" duration="4321000" />
+      <workItem from="1454210920945" duration="156000" />
+      <workItem from="1454211091421" duration="1521000" />
+      <workItem from="1454212752638" duration="18091000" />
+      <workItem from="1454245384439" duration="4193000" />
+      <workItem from="1454289374287" duration="21000000" />
+      <workItem from="1454330033962" duration="2673000" />
+      <workItem from="1454338646504" duration="3686000" />
+      <workItem from="1454372836995" duration="3340000" />
+      <workItem from="1454377401861" duration="4537000" />
+      <workItem from="1454388646122" duration="4750000" />
+      <workItem from="1454393421264" duration="10446000" />
+      <workItem from="1454549372368" duration="17693000" />
+      <workItem from="1454631440615" duration="7092000" />
+      <workItem from="1454674877240" duration="3200000" />
+      <workItem from="1454720317190" duration="8534000" />
+      <workItem from="1454811836563" duration="6019000" />
+      <workItem from="1455585791782" duration="5034000" />
+      <workItem from="1455600088955" duration="4056000" />
+      <workItem from="1455667966445" duration="3261000" />
+      <workItem from="1455684436271" duration="2178000" />
+      <workItem from="1455699808254" duration="1027000" />
+      <workItem from="1455771556541" duration="2612000" />
+      <workItem from="1455860367283" duration="4755000" />
+      <workItem from="1455889842443" duration="1688000" />
+      <workItem from="1456188495177" duration="2999000" />
+      <workItem from="1456228652813" duration="599000" />
+      <workItem from="1456276477018" duration="1980000" />
+      <workItem from="1456301784307" duration="1989000" />
+      <workItem from="1456542326636" duration="7505000" />
+      <workItem from="1456710924921" duration="3298000" />
+      <workItem from="1456794622412" duration="4721000" />
+      <workItem from="1456815831114" duration="8123000" />
+      <workItem from="1456878745762" duration="8456000" />
+      <workItem from="1456907007800" duration="105000" />
+      <workItem from="1456989437741" duration="8249000" />
+      <workItem from="1457053212276" duration="15662000" />
+      <workItem from="1457077929148" duration="2035000" />
+      <workItem from="1457318731692" duration="2426000" />
+      <workItem from="1457397002102" duration="3868000" />
+      <workItem from="1457486124544" duration="20601000" />
+      <workItem from="1457655548180" duration="12990000" />
+      <workItem from="1457694742301" duration="7528000" />
+      <workItem from="1457852602822" duration="10062000" />
+      <workItem from="1457921017776" duration="6604000" />
+      <workItem from="1458000808617" duration="9481000" />
+      <workItem from="1458020710640" duration="5502000" />
+      <workItem from="1458087053582" duration="20407000" />
+      <workItem from="1458118813359" duration="537000" />
+    </task>
+    <task id="LOCAL-00021" summary="lbs 完成 获取周边 兴趣列表">
+      <created>1454556800556</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1454556800556</updated>
+    </task>
+    <task id="LOCAL-00022" summary="lbs 完成 提取相同模块 细节优化">
+      <created>1454558040481</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1454558040481</updated>
+    </task>
+    <task id="LOCAL-00023" summary="lbs 缓存">
+      <created>1454562997662</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1454562997662</updated>
+    </task>
+    <task id="LOCAL-00024" summary="lbs 缓存">
+      <created>1454565376586</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1454565376587</updated>
+    </task>
+    <task id="LOCAL-00025" summary="lbs 缓存">
+      <created>1454566238590</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1454566238590</updated>
+    </task>
+    <task id="LOCAL-00026" summary="lbs 解决sublist 不能序列化问题">
+      <created>1454567274312</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1454567274313</updated>
+    </task>
+    <task id="LOCAL-00027" summary="lbs 解决sublist 不能序列化问题">
+      <created>1454569441270</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1454569441270</updated>
+    </task>
+    <task id="LOCAL-00028" summary="lbs  问题解决">
+      <created>1454570328211</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1454570328211</updated>
+    </task>
+    <task id="LOCAL-00029" summary="lbs  去重">
+      <created>1454570834248</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1454570834248</updated>
+    </task>
+    <task id="LOCAL-00030" summary="lbs  头像上传地址">
+      <created>1454633555027</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1454633555027</updated>
+    </task>
+    <task id="LOCAL-00031" summary="lbs  头像上传地址">
+      <created>1454633589035</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1454633589035</updated>
+    </task>
+    <task id="LOCAL-00032" summary="lbs  头像上传地址">
+      <created>1454633704641</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1454633704641</updated>
+    </task>
+    <task id="LOCAL-00033" summary="lbs  头像上传地址">
+      <created>1454680781800</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1454680781800</updated>
+    </task>
+    <task id="LOCAL-00034" summary="lbs  增加nickname">
+      <created>1454720517039</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1454720517039</updated>
+    </task>
+    <task id="LOCAL-00035" summary="lbs">
+      <created>1454812003814</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1454812003814</updated>
+    </task>
+    <task id="LOCAL-00036" summary="lbs">
+      <created>1454812016209</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1454812016210</updated>
+    </task>
+    <task id="LOCAL-00037" summary="lbs">
+      <created>1454812024709</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1454812024709</updated>
+    </task>
+    <task id="LOCAL-00038" summary="lbs bug">
+      <created>1454813820503</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1454813820503</updated>
+    </task>
+    <task id="LOCAL-00039" summary="lbs bug">
+      <created>1454813832138</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1454813832138</updated>
+    </task>
+    <task id="LOCAL-00040" summary="lbs bug">
+      <created>1454814725898</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1454814725898</updated>
+    </task>
+    <task id="LOCAL-00041" summary="lbs 加上同步对象">
+      <created>1454816555418</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1454816555418</updated>
+    </task>
+    <task id="LOCAL-00042" summary="lbs 设置为60秒">
+      <created>1454818866390</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1454818866390</updated>
+    </task>
+    <task id="LOCAL-00043" summary="lbs 设置为60秒">
+      <created>1454818879762</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1454818879762</updated>
+    </task>
+    <task id="LOCAL-00044" summary="lbs bug">
+      <created>1455601125055</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1455601125055</updated>
+    </task>
+    <task id="LOCAL-00045" summary="lbs bug">
+      <created>1455601152974</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1455601152974</updated>
+    </task>
+    <task id="LOCAL-00046" summary="lbs bug">
+      <created>1455601166530</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1455601166530</updated>
+    </task>
+    <task id="LOCAL-00047" summary="lbs bug">
+      <created>1455601620874</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1455601620874</updated>
+    </task>
+    <task id="LOCAL-00048" summary="新增 新增匹配度">
+      <created>1456543127486</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1456543127486</updated>
+    </task>
+    <task id="LOCAL-00049" summary="新增  mongo 消息入库 功能">
+      <created>1456569121040</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1456569121040</updated>
+    </task>
+    <task id="LOCAL-00050" summary="新增：创建群 群列表 加入群 api操作">
+      <created>1456824975954</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1456824975955</updated>
+    </task>
+    <task id="LOCAL-00051" summary="新增：创建群 群列表 加入群 api操作">
+      <created>1456882781278</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1456882781280</updated>
+    </task>
+    <task id="LOCAL-00052" summary="新增：创建群 接口代码">
+      <created>1456888486891</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1456888486891</updated>
+    </task>
+    <task id="LOCAL-00053" summary="新增：创建群 接口代码">
+      <created>1456888760351</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1456888760351</updated>
+    </task>
+    <task id="LOCAL-00054" summary="兴趣推荐 功能重构+需求变更">
+      <created>1457066147690</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1457066147692</updated>
+    </task>
+    <task id="LOCAL-00055" summary="新增：创建群 接口代码">
+      <created>1457067222459</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1457067222459</updated>
+    </task>
+    <task id="LOCAL-00056" summary="盲写代码未测试：&#10;新增：重写兴趣推荐模块，新增上传活跃统计，新增算法推荐5人列表">
+      <created>1457515701135</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1457515701136</updated>
+    </task>
+    <task id="LOCAL-00057">
+      <created>1457515832832</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1457515832832</updated>
+    </task>
+    <task id="LOCAL-00058" summary="新增：获取最新版本，并且进行版本比较 已经测试">
+      <created>1457680773862</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1457680773863</updated>
+    </task>
+    <task id="LOCAL-00059" summary="新增：创建群 接口代码">
+      <created>1457681062195</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1457681062195</updated>
+    </task>
+    <task id="LOCAL-00060" summary="新增：编辑地址  查询所有地址 接口功能 已经测试">
+      <created>1457709400523</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1457709400524</updated>
+    </task>
+    <task id="LOCAL-00061" summary="周活跃 代码 测试完毕 提交">
+      <created>1457867730064</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1457867730064</updated>
+    </task>
+    <task id="LOCAL-00062" summary="五人 推荐 已测试">
+      <created>1457871655597</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1457871655597</updated>
+    </task>
+    <task id="LOCAL-00063" summary="新增：创建群 接口代码">
+      <created>1457871695872</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1457871695873</updated>
+    </task>
+    <task id="LOCAL-00064" summary="新增:  获取群成员列表 添加群 相关代码">
+      <created>1458011578345</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1458011578346</updated>
+    </task>
+    <task id="LOCAL-00065" summary="新增：授予管理员权限接口">
+      <created>1458024583079</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1458024583079</updated>
+    </task>
+    <task id="LOCAL-00066" summary="新增：创建群 接口代码">
+      <created>1458025489728</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1458025489728</updated>
+    </task>
+    <task id="LOCAL-00067" summary="新增：修改昵称 接口代码">
+      <created>1458100094410</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1458100094411</updated>
+    </task>
+    <task id="LOCAL-00068" summary="新增：创建群 接口代码">
+      <created>1458101078657</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1458101078657</updated>
+    </task>
+    <task id="LOCAL-00069" summary="兴趣最搭：测试">
+      <created>1458111525074</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1458111525074</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="364750000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47577092" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5668135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17292225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3016086" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15683647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56828195" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31424376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51688695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4287812" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="lbs 完成 提取相同模块 细节优化" />
+    <MESSAGE value="lbs 缓存" />
+    <MESSAGE value="lbs 解决sublist 不能序列化问题" />
+    <MESSAGE value="lbs  问题解决" />
+    <MESSAGE value="lbs  去重" />
+    <MESSAGE value="lbs  头像上传地址" />
+    <MESSAGE value="lbs  增加nickname" />
+    <MESSAGE value="lbs" />
+    <MESSAGE value="lbs 加上同步对象" />
+    <MESSAGE value="lbs 设置为60秒" />
+    <MESSAGE value="lbs bug" />
+    <MESSAGE value="新增 新增匹配度" />
+    <MESSAGE value="新增  mongo 消息入库 功能" />
+    <MESSAGE value="新增：创建群 群列表 加入群 api操作" />
+    <MESSAGE value="兴趣推荐 功能重构+需求变更" />
+    <MESSAGE value="盲写代码未测试：&#10;新增：重写兴趣推荐模块，新增上传活跃统计，新增算法推荐5人列表" />
+    <MESSAGE value="新增：获取最新版本，并且进行版本比较 已经测试" />
+    <MESSAGE value="新增：编辑地址  查询所有地址 接口功能 已经测试" />
+    <MESSAGE value="周活跃 代码 测试完毕 提交" />
+    <MESSAGE value="五人 推荐 已测试" />
+    <MESSAGE value="新增:  获取群成员列表 添加群 相关代码" />
+    <MESSAGE value="新增：授予管理员权限接口" />
+    <MESSAGE value="新增：修改昵称 接口代码" />
+    <MESSAGE value="新增：创建群 接口代码" />
+    <MESSAGE value="兴趣最搭：测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="兴趣最搭：测试" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.8946188" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/util/SmsUtil.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/util/UserManageUtil.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/impl/RecommendBiz.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RuleHandle.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/impl/RecommendBiz.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RangeRule.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/AppInfoServie.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/VsersionUpdateBiz.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/AppInfoServie.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxAddrController.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/UserAddrBiz.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/UserAddrBiz.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/UserAddrBiz.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxAddrController.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/ActivityStatBiz.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxLbsController.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxLbsController.java</url>
+          <line>248</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/impl/RecommendBiz.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxInterestController.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="58" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8880367" vertical-offset="3063" max-vertical-offset="11040">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/book/MulitiMemberInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49079755" vertical-offset="0" max-vertical-offset="760">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.5/smack-core-4.1.5-sources.jar!/org/jivesoftware/smack/AbstractXMPPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42723006" vertical-offset="12747" max-vertical-offset="28340">
+          <caret line="751" column="16" selection-start-line="751" selection-start-column="16" selection-end-line="751" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.5/smack-core-4.1.5-sources.jar!/org/jivesoftware/smack/packet/IQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="247" max-vertical-offset="5720">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.5/smack-core-4.1.5-sources.jar!/org/jivesoftware/smack/XMPPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.771518" vertical-offset="3547" max-vertical-offset="11740">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/xdata/packet/DataForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="23" max-vertical-offset="6600">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/xdata/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39417177" vertical-offset="463" max-vertical-offset="9640">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.5/smack-core-4.1.5-sources.jar!/org/jivesoftware/smack/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="4483" max-vertical-offset="5220">
+          <caret line="260" column="47" selection-start-line="260" selection-start-column="47" selection-end-line="260" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/muc/MUCRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.398773" vertical-offset="0" max-vertical-offset="652">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/muc/MultiUserChatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64632237" vertical-offset="1707" max-vertical-offset="5140">
+          <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="443" max-vertical-offset="23860">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/muc/packet/MUCItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6795953" vertical-offset="1683" max-vertical-offset="2600">
+          <caret line="93" column="56" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.5/smack-core-4.1.5-sources.jar!/org/jivesoftware/smack/packet/Presence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.423313" vertical-offset="2280" max-vertical-offset="6980">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.5/smack-core-4.1.5-sources.jar!/org/jivesoftware/smack/PresenceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2760736" vertical-offset="0" max-vertical-offset="652">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="3803" max-vertical-offset="7360">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/muc/MUCAffiliation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30674848" vertical-offset="0" max-vertical-offset="652">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1267" max-vertical-offset="60160">
+          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/muc/packet/MUCUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="23" max-vertical-offset="8040">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/constant/ErrCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="2040">
+          <caret line="74" column="27" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/chat/MultiUserChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="4700">
+          <caret line="181" column="48" selection-start-line="181" selection-start-column="48" selection-end-line="181" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/chat/IMultiChatBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1288" max-vertical-offset="1940">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/book/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73619634" vertical-offset="0" max-vertical-offset="720">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/muc/MultiUserChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7017241" vertical-offset="4267" max-vertical-offset="40400">
+          <caret line="273" column="21" selection-start-line="273" selection-start-column="21" selection-end-line="273" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/xmpp/XmppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32546374" vertical-offset="18807" max-vertical-offset="22480">
+          <caret line="962" column="19" selection-start-line="962" selection-start-column="19" selection-end-line="962" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/chat/impl/UserselfExpressionBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="43" max-vertical-offset="1340">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38650307" vertical-offset="28" max-vertical-offset="800">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/IUserBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="1043" max-vertical-offset="2840">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/base/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="63" max-vertical-offset="940">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-extensions/4.1.5/smack-extensions-4.1.5-sources.jar!/org/jivesoftware/smackx/muc/Affiliate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4785276" vertical-offset="708" max-vertical-offset="1400">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/impl/UserImageBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="303" max-vertical-offset="1720">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/config/IUserImageBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36809817" vertical-offset="0" max-vertical-offset="720">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/chat/impl/MultiChatBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41717792" vertical-offset="1388" max-vertical-offset="2180">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxLbsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1523" max-vertical-offset="5900">
+          <caret line="198" column="37" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/IRecommendBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5705522" vertical-offset="268" max-vertical-offset="920">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RangeRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.547546" vertical-offset="603" max-vertical-offset="3820">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33742332" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/mapper/ActivityStatMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62352943" vertical-offset="95" max-vertical-offset="520">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/core/resolver/DESParamResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19092332" vertical-offset="878" max-vertical-offset="3400">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39417177" vertical-offset="4163" max-vertical-offset="21420">
+          <caret line="251" column="22" selection-start-line="251" selection-start-column="15" selection-end-line="251" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282208" vertical-offset="2163" max-vertical-offset="11660">
+          <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-dao/src/main/resources/META-INF/ibatis/activityStat-mapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6551724" vertical-offset="5080" max-vertical-offset="5660">
+          <caret line="273" column="39" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33240223" vertical-offset="2781" max-vertical-offset="4980">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33240223" vertical-offset="5241" max-vertical-offset="5820">
+          <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-dao/src/main/java/com/dianxin/imessage/dao/dataobject/DxUserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.460371" vertical-offset="10447" max-vertical-offset="11060">
+          <caret line="656" column="6" selection-start-line="656" selection-start-column="6" selection-end-line="656" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/book/impl/RecommendBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5555556" vertical-offset="1865" max-vertical-offset="5000">
+          <caret line="130" column="45" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RuleHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6056338" vertical-offset="2647" max-vertical-offset="4020">
+          <caret line="120" column="110" selection-start-line="120" selection-start-column="98" selection-end-line="120" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-common/src/test/java/com/dianxin/imessage/common/util/DESUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5504587" vertical-offset="0" max-vertical-offset="940">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/UserRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22239263" vertical-offset="275" max-vertical-offset="1580">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/InterestRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22239263" vertical-offset="195" max-vertical-offset="900">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/impl/UserBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2576687" vertical-offset="300" max-vertical-offset="10140">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imessage-web/src/main/java/com/dianxin/imessage/web/service/book/DxInterestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7871675" vertical-offset="3021" max-vertical-offset="3660">
+          <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>imessage-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38319907" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.mybatis:mybatis-spring:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38319907" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38319907" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>imessage-all</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38319907" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.mybatis:mybatis-spring:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38319907" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

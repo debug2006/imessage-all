@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2010-2011 The myBatis Team Licensed under the Apache License,
+	Version 2.0 (the "License"); you may not use this file except in compliance
+	with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+	Unless required by applicable law or agreed to in writing, software distributed
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for
+	the specific language governing permissions and limitations under the License. -->
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径 -->
+
+    <!-- 本地调试用该配置 -->
+    <property name="LOG_HOME" value="d:/logs" />
+    <!-- 线上环境用该配置 -->
+    <property name="LOG_HOME" value="${app.log.dir}" />
+
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss" />
+    <contextName>common</contextName>
+
+    <include resource="logback-include.xml" />
+
+
+    <!-- 日志输出级别 -->
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="INFO-FILE" />
+        <appender-ref ref="ERROR-FILE" />
+        <!-- DEBUG级别在开发过程中打开，上线时请注释掉 -->
+        <appender-ref ref="DEBUG-FILE" />
+    </root>
+
+</configuration>

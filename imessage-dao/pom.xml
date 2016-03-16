@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>imessage-all</artifactId>
+        <groupId>com.dianxin.imessage</groupId>
+        <version>${imessage-all.version}</version>
+        <relativePath>..</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+    </properties>
+    <groupId>com.dianxin.imessage</groupId>
+    <artifactId>imessage-dao</artifactId>
+    <name>imessage-dao</name>
+    <version>${imessage-dao.version}</version>
+    <build>
+        <finalName>imessage-dao-${imessage-dao.version}</finalName>
+    </build>
+</project>

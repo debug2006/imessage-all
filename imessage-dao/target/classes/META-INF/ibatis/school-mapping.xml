@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+         符号转义说明
+    &lt;          < 
+    &gt;          >  
+    &lt;&gt;     <>
+    &amp;        & 
+    &apos;       '
+    &quot;       "
+  <![CDATA[ 这里写你的SQL或者符号 ]]> 
+ -->
+<mapper namespace="com.dianxin.imessage.dao.mapper.SchoolMapper" > 
+<cache type="org.mybatis.caches.ehcache.LoggingEhcache"/> 
+<!-- Result Map 数据库映射到实体类  -->
+<resultMap id="tableMapToModel" type="com.dianxin.imessage.dao.dataobject.DxSchoolModel" >
+ <result column="ID" property="id"/>
+ <result column="SCHOOLNAME" property="schoolname"/>
+ <result column="SCHOOLADDRESS" property="schooladdress"/>
+ <result column="SCHOOLPHONE" property="schoolphone"/>
+ <result column="SCHOOLPHONE2" property="schoolphone2"/>
+ <result column="SCHOOLPOSTALCODE" property="schoolpostalcode"/>
+ <result column="SCHOOLWEBSITE" property="schoolwebsite"/>
+ <result column="SCHOOLXUEDUAN" property="schoolxueduan"/>
+ <result column="SCHOOLPROVINCE" property="schoolprovince"/>
+ <result column="SCHOOLQU" property="schoolqu"/>
+ <result column="SCHOOLXIAN" property="schoolxian"/>
+ <result column="PAGE" property="page"/>
+</resultMap>
+
+<!-- 所有条件分页 -->
+<sql id="model">
+    <include refid="modelCount"/>
+    ${pageUtil.orderByCondition}
+    <if test="pageUtil.paging == true" >
+    	${pageUtil.limit}
+    </if>
+</sql>
+
+<!-- 总记录数 -->
+<sql id="modelCount">
+	<where>
+	   <choose>
+	      <when test="pageUtil.like==true">
+	         <include refid="andOtherAllLike"/>
+	      </when>
+	      <otherwise>
+	     	 <include refid="andOtherAll"/>
+	      </otherwise>
+	   </choose>
+	   ${pageUtil.andCondition}
+	</where>
+    ${pageUtil.queryCondition}
+</sql>
+
+<!-- tbaleColumns  所有列 -->
+<!--  id,name,password,nickName,email,icon,state,time,count,createTime,remark -->
+<sql id="tbaleColumns">
+	<trim suffix="" suffixOverrides=",">
+			     ID,
+	    	     SCHOOLNAME,
+	    	     SCHOOLADDRESS,
+	    	     SCHOOLPHONE,
+	    	     SCHOOLPHONE2,
+	    	     SCHOOLPOSTALCODE,
+	    	     SCHOOLWEBSITE,
+	    	     SCHOOLXUEDUAN,
+	    	     SCHOOLPROVINCE,
+	    	     SCHOOLQU,
+	    	     SCHOOLXIAN,
+	    	     PAGE,
+	    	</trim>
+</sql>
+
+
+<!-- insertColumns 入库列 -->
+<sql id="insertColumns">
+	<trim suffix="" suffixOverrides=",">
+	    	       ID,
+	    	       SCHOOLNAME,
+	    	       SCHOOLADDRESS,
+	    	       SCHOOLPHONE,
+	    	       SCHOOLPHONE2,
+	    	       SCHOOLPOSTALCODE,
+	    	       SCHOOLWEBSITE,
+	    	       SCHOOLXUEDUAN,
+	    	       SCHOOLPROVINCE,
+	    	       SCHOOLQU,
+	    	       SCHOOLXIAN,
+	    	       PAGE,
+	        </trim>
+</sql>
+
+
+<!-- insertParams  入库值 -->
+<sql id="insertParams">
+	<trim suffix="" suffixOverrides=",">
+			       #{id},
+	    	       #{schoolname},
+	    	       #{schooladdress},
+	    	       #{schoolphone},
+	    	       #{schoolphone2},
+	    	       #{schoolpostalcode},
+	    	       #{schoolwebsite},
+	    	       #{schoolxueduan},
+	    	       #{schoolprovince},
+	    	       #{schoolqu},
+	    	       #{schoolxian},
+	    	       #{page},
+	        </trim>
+</sql>
+
+
+<!-- updateParams  更新列 -->
+<sql id="updateParams">
+	<trim suffix="" suffixOverrides=",">
+				  	       <if test="id != null and id !='' " >
+			 ID=#{id},
+	       </if>
+	      	    		  	       <if test="schoolname != null and schoolname !='' " >
+			 SCHOOLNAME=#{schoolname},
+	       </if>
+	      	    		  	       <if test="schooladdress != null and schooladdress !='' " >
+			 SCHOOLADDRESS=#{schooladdress},
+	       </if>
+	      	    		  	       <if test="schoolphone != null and schoolphone !='' " >
+			 SCHOOLPHONE=#{schoolphone},
+	       </if>
+	      	    		  	       <if test="schoolphone2 != null and schoolphone2 !='' " >
+			 SCHOOLPHONE2=#{schoolphone2},
+	       </if>
+	      	    		  	       <if test="schoolpostalcode != null and schoolpostalcode !='' " >
+			 SCHOOLPOSTALCODE=#{schoolpostalcode},
+	       </if>
+	      	    		  	       <if test="schoolwebsite != null and schoolwebsite !='' " >
+			 SCHOOLWEBSITE=#{schoolwebsite},
+	       </if>
+	      	    		  	       <if test="schoolxueduan != null and schoolxueduan !='' " >
+			 SCHOOLXUEDUAN=#{schoolxueduan},
+	       </if>
+	      	    		  	       <if test="schoolprovince != null and schoolprovince !='' " >
+			 SCHOOLPROVINCE=#{schoolprovince},
+	       </if>
+	      	    		  	       <if test="schoolqu != null and schoolqu !='' " >
+			 SCHOOLQU=#{schoolqu},
+	       </if>
+	      	    		  	       <if test="schoolxian != null and schoolxian !='' " >
+			 SCHOOLXIAN=#{schoolxian},
+	       </if>
+	      	    		  	       <if test="page != null and page !='' " >
+			 PAGE=#{page},
+	       </if>
+	      	        </trim>
+</sql>
+
+<!-- 查询条件  包含所有 -->
+<sql id="andOtherAll">
+	<trim  suffixOverrides="," >
+              <if test="id != null and id !='' " >
+          and  ID=#{id}
+        </if>
+              <if test="schoolname != null and schoolname !='' " >
+          and  SCHOOLNAME=#{schoolname}
+        </if>
+              <if test="schooladdress != null and schooladdress !='' " >
+          and  SCHOOLADDRESS=#{schooladdress}
+        </if>
+              <if test="schoolphone != null and schoolphone !='' " >
+          and  SCHOOLPHONE=#{schoolphone}
+        </if>
+              <if test="schoolphone2 != null and schoolphone2 !='' " >
+          and  SCHOOLPHONE2=#{schoolphone2}
+        </if>
+              <if test="schoolpostalcode != null and schoolpostalcode !='' " >
+          and  SCHOOLPOSTALCODE=#{schoolpostalcode}
+        </if>
+              <if test="schoolwebsite != null and schoolwebsite !='' " >
+          and  SCHOOLWEBSITE=#{schoolwebsite}
+        </if>
+              <if test="schoolxueduan != null and schoolxueduan !='' " >
+          and  SCHOOLXUEDUAN=#{schoolxueduan}
+        </if>
+              <if test="schoolprovince != null and schoolprovince !='' " >
+          and  SCHOOLPROVINCE=#{schoolprovince}
+        </if>
+              <if test="schoolqu != null and schoolqu !='' " >
+          and  SCHOOLQU=#{schoolqu}
+        </if>
+              <if test="schoolxian != null and schoolxian !='' " >
+          and  SCHOOLXIAN=#{schoolxian}
+        </if>
+              <if test="page != null and page !='' " >
+          and  PAGE=#{page}
+        </if>
+      	</trim>
+</sql>
+
+
+<!-- 模糊查询判断 -->
+<sql id="andOtherAllLike">
+	<trim  suffixOverrides="," >
+			        <if test="id != null and id !='' " >
+	          and ID like  &apos;${id}%&apos;
+	        </if>
+        	        <if test="schoolname != null and schoolname !='' " >
+	          and SCHOOLNAME like  &apos;%${schoolname}%&apos;
+	        </if>
+        	        <if test="schooladdress != null and schooladdress !='' " >
+	          and SCHOOLADDRESS like  &apos;${schooladdress}%&apos;
+	        </if>
+        	        <if test="schoolphone != null and schoolphone !='' " >
+	          and SCHOOLPHONE like  &apos;${schoolphone}%&apos;
+	        </if>
+        	        <if test="schoolphone2 != null and schoolphone2 !='' " >
+	          and SCHOOLPHONE2 like  &apos;${schoolphone2}%&apos;
+	        </if>
+        	        <if test="schoolpostalcode != null and schoolpostalcode !='' " >
+	          and SCHOOLPOSTALCODE like  &apos;${schoolpostalcode}%&apos;
+	        </if>
+        	        <if test="schoolwebsite != null and schoolwebsite !='' " >
+	          and SCHOOLWEBSITE like  &apos;${schoolwebsite}%&apos;
+	        </if>
+        	        <if test="schoolxueduan != null and schoolxueduan !='' " >
+	          and SCHOOLXUEDUAN like  &apos;${schoolxueduan}%&apos;
+	        </if>
+        	        <if test="schoolprovince != null and schoolprovince !='' " >
+	          and SCHOOLPROVINCE like  &apos;${schoolprovince}%&apos;
+	        </if>
+        	        <if test="schoolqu != null and schoolqu !='' " >
+	          and SCHOOLQU like  &apos;${schoolqu}%&apos;
+	        </if>
+        	        <if test="schoolxian != null and schoolxian !='' " >
+	          and SCHOOLXIAN like  &apos;${schoolxian}%&apos;
+	        </if>
+        	        <if test="page != null and page !='' " >
+	          and PAGE like  &apos;${page}%&apos;
+	        </if>
+        	</trim>
+</sql>
+
+<!-- where 条件  -->
+<sql id="where">
+     where 1=1
+</sql>
+
+<!-- columnKey  主键 列名称 ,视图获取不到主键 需要设置 -->
+<sql id="columnKey">
+    and ID=#{id}
+</sql>
+
+
+<!-- 自定义查询 -->
+<sql id="sql">
+   <if test="sql != null and sql !=''">
+       ${sql}
+   </if>
+   <if test="sql == null || sql==''">
+      select <include refid="tbaleColumns"/> from school <include refid="where"/>
+   </if>
+</sql>
+
+<!-- 查询条件 -->
+<sql id="queryCondition">
+     <if test="queryCondition != null and queryCondition != ''">
+         ${queryCondition}
+     </if>
+</sql>
+
+
+<!-- 添加,插入记录   -->
+<insert id="insert"  parameterType="com.dianxin.imessage.dao.dataobject.DxSchoolModel" useGeneratedKeys="true" keyProperty="id">
+    insert into school(<include refid="insertColumns"/>) values(<include refid="insertParams"/>)
+</insert>
+
+<!-- 添加,SQL添加   -->
+<insert id="insertBySql" parameterType="java.lang.String">
+    <include refid="sql"/>
+</insert>
+
+<!-- 删除,主键删除   -->
+<delete id="deleteByPrimaryKey" parameterType="com.dianxin.imessage.dao.dataobject.DxSchoolModel">
+    delete from school<include refid="where"/><include refid="columnKey"/>
+</delete>
+
+<!-- 删除,实体删除   -->
+<delete id="deleteByEntity" parameterType="com.dianxin.imessage.dao.dataobject.DxSchoolModel">
+    delete from school<include refid="where"/><include refid="andOtherAll"/>
+</delete>
+
+<!-- 删除,SQL删除   -->
+<delete id="deleteBySql" parameterType="java.lang.String">
+      <include refid="sql"/>
+</delete>
+
+<!-- 修改,主键更新  -->
+<update id="updateByPrimaryKey" parameterType="com.dianxin.imessage.dao.dataobject.DxSchoolModel" >
+	update school <set><include refid="updateParams"/></set><include refid="where"/><include refid="columnKey"/>
+</update>
+
+<!-- 修改,SQL更新 -->
+<update id="updateBySql" parameterType="java.lang.String">
+	  <include refid="sql"/>
+</update>
+
+<!-- 查询,主键查询   -->
+<select id="selectByPrimaryKey"  resultMap="tableMapToModel" parameterType="java.lang.Object">
+	select <include refid="tbaleColumns"/> from school <include refid="where"/> <include refid="columnKey"/>
+</select>
+
+<!-- 查询,实体查询   -->
+<select id="selectByEntiry"  resultMap="tableMapToModel" parameterType="com.dianxin.imessage.dao.dataobject.DxSchoolModel">
+	select <include refid="tbaleColumns"/> from school <include refid="where"/> <include refid="andOtherAll"/>
+</select>
+
+<!-- 查询,SQL -->
+<select id="selectBySql"  resultMap="tableMapToModel" parameterType="java.lang.String">
+     <include refid="sql"/>
+</select>
+  	
+<!-- 查询 ,总行数,分页 ,模型 -->
+<select id="selectByModelCount" resultType="java.lang.Integer"  parameterType="com.dianxin.imessage.dao.dataobject.DxSchoolModel">
+	select count(1) from school <include refid="modelCount"/>
+</select>
+  	
+<!-- 查询,排序,分页,模型  -->
+<select id="selectByModel" resultMap="tableMapToModel"  parameterType="com.dianxin.imessage.dao.dataobject.DxSchoolModel">
+	select <include refid="tbaleColumns"/>from school <include refid="model"/>
+</select>
+
+<!-- 查询,总行数,Map -->
+<select id="selectByMapCount" resultType="java.lang.Integer"  parameterType="java.util.Map">
+	select count(1) from school <include refid="where"/><include refid="andOtherAll"/>
+    ${queryCondition}
+	<if test="andCondition !=null and andCondition !=''">
+	   and ${andCondition}
+	</if>
+	<if test="orderCondition != null and queryCondition != ''" >
+    	order by ${orderCondition}
+    </if>
+</select>
+  	
+<!-- 查询,参数查询,Map -->
+<select id="selectByMap" resultMap="tableMapToModel"  parameterType="java.util.Map">
+	select <include refid="tbaleColumns"/>from school <include refid="where"/><include refid="andOtherAll"/>
+    ${queryCondition}
+	<if test="andCondition !=null and andCondition !=''">
+	   and ${andCondition}
+	</if>
+	<if test="orderCondition != null and queryCondition != ''" >
+    	order by ${orderCondition}
+    </if>
+</select>
+
+<!-- 查询,总行数,Map分页 -->
+<select id="selectByMapPagingCount" resultType="java.lang.Integer"  parameterType="java.util.Map">
+	select count(0) from school <include refid="where"/><include refid="andOtherAll"/>
+    ${queryCondition}
+	<if test="andCondition !=null and andCondition !=''">
+	   and ${andCondition}
+	</if>
+    ${pageUtil.queryCondition}
+    ${pageUtil.andCondition}
+</select>
+
+<!-- 查询,参数查询,Map分页 -->
+<select id="selectByMapPaging" resultMap="tableMapToModel"  parameterType="java.util.Map">
+	select <include refid="tbaleColumns"/>from school <include refid="where"/><include refid="andOtherAll"/>
+	${queryCondition}
+	<if test="andCondition !=null and andCondition !=''">
+	   and ${andCondition}
+	</if>
+	<if test="orderCondition != null and queryCondition != ''" >
+    	order by ${orderCondition}
+    </if>
+    ${pageUtil.queryCondition}
+    ${pageUtil.andCondition}
+    ${pageUtil.orderByCondition}
+    ${pageUtil.limit}
+</select>
+
+<!--//////////////////////增加/////////////////////// -->
+
+</mapper>   

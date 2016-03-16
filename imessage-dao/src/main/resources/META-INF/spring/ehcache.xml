@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../bin/ehcache.xsd">	
+<defaultCache 
+name="imessage"
+maxElementsInMemory="10000"
+overflowToDisk="true"
+eternal="false"
+diskSpoolBufferSizeMB="30" 
+maxElementsOnDisk="10000000" 
+diskPersistent="false" 
+diskExpiryThreadIntervalSeconds="120"  
+memoryStoreEvictionPolicy="LRU"/>
+<diskStore path="java.io.tmpdir" />
+</ehcache>
+

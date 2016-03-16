@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="imessage-web:war">
+    <output-path>$PROJECT_DIR$/imessage-web/target</output-path>
+    <root id="archive" name="imessage-web.war">
+      <element id="artifact" artifact-name="imessage-web:war exploded" />
+    </root>
+  </artifact>
+</component>

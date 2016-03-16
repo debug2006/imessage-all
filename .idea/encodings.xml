@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/ConstellationRule.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/InterestRule.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RangeRule.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/RuleHandle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/SexRule.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-biz/src/main/java/com/dianxin/imessage/biz/mongo/TimeRule.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/MongoDBManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-common/src/main/java/com/dianxin/imessage/common/lbs/data/MongoPosition.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imessage-dao" charset="UTF-8" />
+  </component>
+</project>

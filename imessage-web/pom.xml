@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>imessage-all</artifactId>
+        <groupId>com.dianxin.imessage</groupId>
+        <version>${imessage-all.version}</version>
+        <relativePath>..</relativePath>
+    </parent>
+    <groupId>com.dianxin.imessage</groupId>
+    <artifactId>imessage-web</artifactId>
+    <packaging>war</packaging>
+    <name>imessage-war</name>
+    <version>${imessage-web.version}</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.dianxin.imessage</groupId>
+            <artifactId>imessage-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dianxin.imessage</groupId>
+            <artifactId>imessage-biz</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>imessage-web-${imessage-web.version}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1-beta-1</version>
+                <configuration>
+                    <webResources>
+                        <resource>
+                            <!-- this is relative to the pom.xml directory -->
+                            <directory>WebRoot</directory>
+                        </resource>
+                    </webResources>
+                    <warName>imessage-web</warName>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

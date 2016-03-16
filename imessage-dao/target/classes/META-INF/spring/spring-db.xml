@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd"
+       default-autowire="byName">
+
+    <!-- 连接common 数据库 -->
+    <bean id="commonDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
+          destroy-method="close"
+          p:url="${datasource.url}"
+          p:username="${datasource.username}"
+          p:password="${datasource.password}"
+          p:initialSize="${datasource.initialSize}"
+          p:minIdle="${datasource.minIdle}"
+          p:maxActive="${datasource.maxActive}"
+          p:maxWait="${datasource.maxWait}"
+          p:timeBetweenEvictionRunsMillis="${datasource.timeBetweenEvictionRunsMillis}"
+          p:minEvictableIdleTimeMillis="${datasource.minEvictableIdleTimeMillis}"
+          p:validationQuery="${datasource.validationQuery}"
+          p:testWhileIdle="${datasource.testWhileIdle}"
+          p:testOnBorrow="${datasource.testOnBorrow}"
+          p:testOnReturn="${datasource.testOnReturn}"
+          p:poolPreparedStatements="${datasource.poolPreparedStatements}"
+          p:maxPoolPreparedStatementPerConnectionSize="${datasource.maxPoolPreparedStatementPerConnectionSize}"
+          p:filters="${datasource.filters}">
+    </bean>
+    
+     <bean id="ehCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">  
+     <property name="configLocation" value="classpath:META-INF/spring/ehcache.xml" />  
+     </bean>
+
+    <!-- 事务配置 -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="commonDataSource"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!-- MySQL TransactionTemplate -->
+    <bean id="transactionTemplate"
+          class="org.springframework.transaction.support.TransactionTemplate">
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+
+    <bean id="commonSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="commonDataSource"/>
+        <property name="typeAliasesPackage"
+                  value="com.dianxin.imessage.dao.dataobject"/>
+        <property name="mapperLocations" value="classpath*:META-INF/ibatis/*.xml"/>
+    </bean>
+
+    <bean name="commonMapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage"
+                  value="com.dianxin.imessage.dao.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="commonSqlSessionFactory"/>
+    </bean>
+</beans>
